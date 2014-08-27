@@ -1,12 +1,42 @@
 
-p { 
-font-size: 12;
+h1 {
 font-family: "helvetica";
-color: "gray";
+color: "black";
+font-size: 40px;
+text-align: center
+}
+
+h2 {
+font-family: "helvetica";
+color: "black";
+font-size: 30px;;
+text-align: center
+}
+
+
+h3 {
+font-family: "garamond";
+color: "black";
+font-size: 20px;;
+text-align: center
+}
+
+p { 
+font-family: "helvetica";
+color: gray;
 font-size: 14px;
 padding-bottom: 18px;
 text-align: center;
- 
+
+}
+
+li { 
+font-family: "helvetica";
+color: gray;
+font-size: 14px;
+padding-bottom: 18px;
+text-align: center;
+
 }
 
 
