@@ -1,5 +1,7 @@
+
 body { 
-    background: #ffbfdff; 
+    background-color: white; 
+    margin: 0;
 }
 
 h1 {
@@ -25,7 +27,7 @@ h3 {
 	color: "black";
 	font-size: 20px;
 	text-align: center;
-	margin: 0em;
+	margin: 0em;+
 }
 
 p { 
@@ -44,7 +46,7 @@ li {
 	text-align: center;
 }
 
-nav { 
+footer { 
 	font-family: "Lato", sans-serif;
 	color: gray;
 	font-size: 12px;
@@ -53,6 +55,17 @@ nav {
 	text-align: center;
 }
 
+.section {
+  	float: left;
+  	width: 300px;
+  	margin: 10px;
+  	padding: 20px 20px 20px 20px;  
+	box-sizing: border-box;
+}
+
+.clearfloat {
+  clear: both;
+}
 .space {
 	padding-left: 0;
 
@@ -77,3 +90,18 @@ img.displayed {
 	font-size: 13px;
 }
 
+.header { 
+	width: 500px;
+	margin: 10px auto;
+}
+
+.wrapper {
+	width: 100%;
+	background-color: #e0e0e0; 
+	overflow: hidden;
+}
+
+.center {
+	width:960px;
+	margin: 0 auto;
+}
