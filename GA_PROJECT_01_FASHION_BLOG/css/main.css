@@ -1,1 +1,74 @@
-font-family: 'Lato', sans-serif;Tips
+body{
+	font-family: 'Lato', sans-serif;
+	font-weight: 100;
+	font-size: 20px;
+	line-height: 32px;
+	width: 900px;
+	margin-left: 65px;
+}
+
+h1{
+	font-size: 60px;
+	color: #f30000;
+	line-height: 10px;
+}
+
+h2{
+	font-size: 47px;
+	color: black;
+	line-height: 25px;
+}
+
+h3{
+	font-size: 32px;
+	color: black;
+}
+
+.headermenu{
+	font-size: 23px;
+	margin-right: 25px;
+	color: #cccccc;
+	border-bottom: 2px solid #cccccc;
+	padding-bottom: 10px;
+}
+
+.footermenu{
+	font-size: 19px;
+	margin-right: 4px;
+	color: #f30000;
+
+}
+#graycolor{
+	color: #cccccc;
+}
+
+#continues {
+	font-size: 20px;
+	font-weight: bolder;
+	color: #f30000;
+	position: relative;
+	float: right;
+}
+
+.maincontainer{
+	margin-top: 90px;
+	margin-bottom: 100px;
+	width: 900px;
+}
+
+.container{
+	margin-bottom: 100px;
+	width: 900px;
+}
+
+#firstletter{
+	font-size: 120px;
+	color: #cccccc;
+	position: relative;
+	float:left;
+	line-height: 100px;
+	padding-right: 15px;
+	margin-left: -13px;
+}
+
+
