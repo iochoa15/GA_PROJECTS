@@ -1,30 +1,35 @@
 body{
 	font-family: 'Lato', sans-serif;
-	font-weight: 100;
+	font-weight: 300;
 	font-size: 20px;
 	line-height: 32px;
 	width: 900px;
-	margin-left: 65px;
+	padding: 10px 65px;
+	border-left: 5px solid #cccccc;
+	margin: 0px;
 }
 
 h1{
 	font-size: 60px;
+	font-weight: 300;
 	color: #f30000;
 	line-height: 10px;
 }
 
 h2{
 	font-size: 47px;
+	font-weight: 100;
 	color: black;
 	line-height: 25px;
 }
 
 h3{
 	font-size: 32px;
+	font-weight: 300;
 	color: black;
 }
 
-.headermenu{
+.headermenu a{
 	font-size: 23px;
 	margin-right: 25px;
 	color: #cccccc;
@@ -32,7 +37,7 @@ h3{
 	padding-bottom: 10px;
 }
 
-.footermenu{
+.footermenu a{
 	font-size: 19px;
 	margin-right: 4px;
 	color: #f30000;
@@ -44,7 +49,7 @@ h3{
 
 #continues {
 	font-size: 20px;
-	font-weight: bolder;
+	font-weight: 700;
 	color: #f30000;
 	position: relative;
 	float: right;
@@ -52,13 +57,17 @@ h3{
 
 .maincontainer{
 	margin-top: 90px;
-	margin-bottom: 100px;
+	margin-bottom: 80px;
 	width: 900px;
 }
 
 .container{
 	margin-bottom: 100px;
 	width: 900px;
+}
+
+.footercontainer{
+	margin-top: 70px;
 }
 
 #firstletter{
