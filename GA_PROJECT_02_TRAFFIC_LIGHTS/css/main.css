@@ -1,0 +1,93 @@
+body {
+	background-image: url("../img/backimage.jpg");
+	background-color: #797979;
+	background-repeat: no-repeat;
+	background-size:cover;
+	background-position:center; /* IE fix */
+	width: 100%;
+	height: 100%;
+}
+
+.maincontainer{
+	display: block;
+	position: relative;
+}
+
+.container {
+	display: block;
+	background-image: url("../img/trafficlight.png");
+	background-repeat: no-repeat;
+	width: 30%;
+	height: 100%;
+	float: left;
+	position: relative;
+	margin-top: 40px;
+}
+
+#clean{
+	background-image: none;
+	margin-top: 300px;
+}
+
+#stop{
+	opacity: .2;
+	width: 150px;
+	height: 150px; 
+	background-color: #cc0000;
+	border-radius: 100px;
+	margin: 46px 72px;
+}
+
+#stop:hover{
+	opacity: 100;
+}
+
+#caution{
+	opacity: .2;
+	width: 150px;
+	height: 150px;
+	background-color: #ffcc00;
+	border-radius: 100px;
+	margin: 24px 72px;
+}
+
+#caution:hover{
+	opacity: 100;
+}
+
+#go{
+	opacity: .2;
+	width: 150px;
+	height: 150px; 
+	background-color: #339900;
+	border-radius: 100px;
+	margin: 14px 72px;
+}
+#go:hover{
+	opacity: 100;
+	}
+
+#button1{
+	width: 100px;
+	color: #ffffff;
+	font: 14px "Verdana"; 
+	text-align: center;
+	background-color: #376874;
+	background: -webkit-linear-gradient(#5d95a3, #376874);
+	border: 1px solid #285560;
+	border-radius: 10px;
+	margin-bottom: 30px;
+	margin-left: 100px;
+	box-shadow: 1px 1px 5px black;
+	transiton: padding 2s, background-color 2s, ease 0s;
+}
+
+#button1:hover{
+	padding: 2px;
+	background-color: #376874;
+	background: -webkit-linear-gradient(#5d95a3, #20515d);
+}
+
+#margin{
+	margin-top: 500px;
+}
