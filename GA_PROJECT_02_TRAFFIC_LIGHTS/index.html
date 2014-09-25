@@ -3,19 +3,24 @@
 <head>
 	<title>Traffic Lights</title>
 	<link rel="stylesheet" type="text/css" href="css/main.css" />
+	<script type="text/javascript"src="js/application.js"></script>
 </head>
 <body>
 	<div class="maincontainer">
 		<div class="container" id="clean"></div>
+
+
 		<div class="container">
 			<div id="stop"> </div> 
 			<div id="caution"> </div>
 			<div id="go"> </div>
 		</div>
+
+
 		<div class="container" id="clean">
-			<div id="button1" id="margin"><p>STOP</p></div>
-			<div id="button1"><p>CAUTION</p></div>
-			<div id="button1"><p>GO</p></div>
+			<div id="button1" id="margin" onclick="stopClick()" ><p>STOP</p></div>
+			<div id="button1" onclick="cautionClick()"><p>CAUTION</p></div>
+			<div id="button1" onclick="goClick()"><p>GO</p></div>
 		</div>
 	</div>	
 </body>

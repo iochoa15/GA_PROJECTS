@@ -51,9 +51,7 @@ body {
 	margin: 24px 72px;
 }
 
-#caution:hover{
-	opacity: 100;
-}
+
 
 #go{
 	opacity: .2;
@@ -63,11 +61,10 @@ body {
 	border-radius: 100px;
 	margin: 14px 72px;
 }
-#go:hover{
-	opacity: 100;
-	}
+
 
 #button1{
+	position: relative;
 	width: 100px;
 	color: #ffffff;
 	font: 14px "Verdana"; 
@@ -80,6 +77,7 @@ body {
 	margin-left: 100px;
 	box-shadow: 1px 1px 5px black;
 	transiton: padding 2s, background-color 2s, ease 0s;
+	cursor: pointer;;
 }
 
 #button1:hover{
