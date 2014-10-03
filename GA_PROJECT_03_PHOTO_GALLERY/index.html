@@ -6,22 +6,35 @@
 	<script type="text/javascript"src="js/application.js"></script>
 </head>
 <body>
-	<header class="header">
-		<h1> </h1>
+	<div id="arrows-container">
+		<div id="prev" onclicK="onClickPrev()"><img src="img/arrow_left.svg"></div>
+		<div id="next" onclicK="onClickNext()"><img src="img/arrow_right.svg"></div>
+	</div>
 
-	</header>
+	<div class="header">
+		<ul id="thumbnails">
+			<li onclick = "changePicture(3)"><img src="img/thumbnails/tmb_1.png"/></li>
+			<li onclick = "changePicture(2)"><img src="img/thumbnails/tmb_2.png"/></li>
+			<li onclick = "changePicture(1)"><img src="img/thumbnails/tmb_3.png"/></li>
+			<li onclick = "changePicture(0)"><img src="img/thumbnails/tmb_4.png"/></li>
+		</ul>
+	</div>
 
-	<section class="photocontainer">
-	</section>
-
-	<footer class="footer">
-		<div class="thumbnails">
-			<img src="" >
-			<img src="" >
-			<img src="" >
-			<img src="" >
+	<div id="image-slider">
+		<div>
+			<span id="overlay-square">
+				<section class="textbox">
+				<h1>THIS IS MY HEADLINE</h1>
+				<p>Here's is a bunch of text, pretty much describing my image or whatever.</p></section>	
+			</span>
+			<img id="image" src= "img/img1.png" alt="City with King Kong"/>
 		</div>
-	</footer>
+	</div>
+
+	</div>
+
+
+
 
 </body>
 </html>

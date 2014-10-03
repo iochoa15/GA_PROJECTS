@@ -1,15 +1,111 @@
-#header{
+body{
+	color: white;
+	font-family: Arial;
+	font-size: 2em;
+	line-height: 1.25em;
+    font-weight: lighter;
+	width: 100%;
+	max-height: 650px;
+	background-color: #add8d6;
+	margin: 0px;
+	-webkit-box-sizing:border-box;
+    -moz-box-sizing:border-box;
+    box-sizing:border-box;
+}
+p{
+	font-size: .7em;
+	line-height: 1em;
+	font-weight: lighter;
+}
+.header{
+	width: 100%;
+	max-height: 40px;
+	background-color: white;
+	position: absolute;
+	margin: 0;
+}
+#arrows-container{
+	width: 100%;
+	position: absolute;
+	 -webkit-transition: all .1s ease;
+     -moz-transition: all .1s ease;
+     -o-transition: all .1s ease;
+     -ms-transition: all .1s ease;
+      transition: all .1s ease;
+}
+#arrows-container div:hover{
+	opacity: .8;
+	-webkit-filter: blur(3px);
+}
+#prev{
+	display: block;
+	margin-top: 20%;
+	margin-left: 1%;
+	cursor: pointer;
+	float: left;
+}
+#next{
+	display: block;
+	margin-top: 20%;
+	margin-right: 1%;
+	cursor: pointer;
+	float: right;
+}
+#thumbnails li{
+	display: block;
+	margin-left: 1%;
+	position: relative;
+	cursor: pointer;
+	float: right;
+	  -webkit-transition: all 0.5s ease;
+     -moz-transition: all 0.5s ease;
+       -o-transition: all 0.5s ease;
+      -ms-transition: all 0.5s ease;
+          transition: all 0.5s ease;
+}
+#thumbnails li:hover{
+	 -webkit-transform: rotate(-10deg);
+     -moz-transform: rotate(-10deg);
+      -o-transform: rotate(-10deg);
+      -ms-transform: rotate(-10deg);
+         transform: rotate(-10deg);
 
 }
-
-#photocontainer{
-
+#thumbnails li:first-child{
+	margin-right: 5%;
 }
 
-#foother{
-
+#image-slider{
+	width: 100%;
+    height: 650px;
+    padding:0;
 }
-
-#thumbnails{
-	
+#overlay-square{
+	display: block;
+	position: absolute;
+	width: 50%;
+	height: 50%;
+	background-color: black;
+	overflow: auto;
+ 	margin: auto;
+ 	top: 0; left: 0; bottom: 0; right: 0;
+ 	opacity: .0;
+	-webkit-transition: opacity 0.3s ease-in 0s;
+	-moz-transition: opacity 0.3s ease-in 0s;
+	-o-transition: opacity 0.3s ease-in 0s;
+	transition: opacity 0.3s ease-in 0s;
+}	
+#image-slider:hover #overlay-square{
+	 	opacity: .8;
+}
+#image{
+	display: block;
+	width: 100%;
+ 	max-width: 100%;
+}
+.textbox{
+	padding-top: 2%;
+	padding-left: 5%;
+	padding-right: 5%;
+	margin-top: 0;
 }
