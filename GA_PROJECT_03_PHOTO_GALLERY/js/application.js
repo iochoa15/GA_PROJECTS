@@ -24,3 +24,13 @@ function onClickPrev() {
 	var img = document.getElementById('image');
 	img.setAttribute('src', images[currentImage]);	
 }
+
+
+setInterval(
+	function(){
+		//$("#next").click();
+		onClickNext();
+		console.log("test");
+	}, 
+	5000);
+
