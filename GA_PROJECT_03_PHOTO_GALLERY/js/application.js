@@ -14,7 +14,11 @@ function onClickNext() {
 	}
 	var img = document.getElementById('image');
 	img.setAttribute('src', images[currentImage]);
-	
+	// $( "#next" ).click(function() {
+ 	// // $( "image" ).fadeIn( 3000); 
+ 	// });
+ 	//Here I was trying to make a fade in
+ 	//I need to keep serching tho. There's something wrong.	
 }
 function onClickPrev() {
 	currentImage = currentImage -1;
@@ -22,15 +26,13 @@ function onClickPrev() {
 		currentImage = images.length -1;
 	}
 	var img = document.getElementById('image');
-	img.setAttribute('src', images[currentImage]);	
+	img.setAttribute('src', images[currentImage]);
+
 }
-
-
 setInterval(
 	function(){
 		//$("#next").click();
 		onClickNext();
-		console.log("test");
 	}, 
 	5000);
 
