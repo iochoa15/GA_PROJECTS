@@ -1,0 +1,149 @@
+body{
+	background-color:#e4e6e9;
+	font-family: Changa One;
+	color:#3d4452;
+	font-size: 24px;
+	text-align: center;
+	margin: 0;
+}	
+
+h1{
+	font-size: 1.4em;
+	margin-bottom: 80px;
+}
+
+.mainContainer{
+	background-color: white;
+	width: 800px;
+	height: 900px;
+	padding-top: 30px;
+	display: block;
+    margin-left: auto;
+    margin-right: auto;
+    box-shadow: 0px 2px 5px #7a7a7a;
+}
+
+.userSection{
+	height: 400px;
+}
+.buttonChoices{
+	margin-top: 50px;
+	margin-left:40px;
+	margin-right: 40px;
+}
+
+#rockButton{
+	width: 200px;
+	height: 200px;
+	border-radius: 50%;
+	background-color: #caffcb;
+	display: inline-block;
+	position: relative;
+	float: left;
+	margin-left: 33px;
+	cursor: pointer;
+	background-image: url("../img/rock.svg");
+	-webkit-transition-duration: 0.5s;
+  	transition-duration: 0.5s;
+  	-webkit-transition-property: transform;
+  	transition-property: transform;
+  	-webkit-transform: translateZ(0);
+  	transform: translateZ(0);
+  	box-shadow: 0 0 1px rgba(0, 0, 0, 0);
+}
+#rockButton:hover, #rockButton:focus, #rockButton:active{
+	background-color: #98ff9a;
+	  -webkit-transform: translateY(-12px);
+  	transform: translateY(-12px);
+  	-webkit-animation-name: hover;
+  	animation-name: hover;
+  	-webkit-animation-duration: 1.5s;
+  	animation-duration: 1.5s;
+  	-webkit-animation-delay: 0.3s;
+  	animation-delay: 0.3s;
+  	-webkit-animation-timing-function: linear;
+  	animation-timing-function: linear;
+  	-webkit-animation-iteration-count: infinite;
+  	animation-iteration-count: infinite;
+  	-webkit-animation-direction: alternate;
+  	animation-direction: alternate;
+}
+#paperButton{
+	width: 200px;
+	height: 200px;
+	border-radius: 50%;
+	background-color: #caeeff;
+	display: inline-block;
+	position: relative;
+	float: left;
+	margin-left: 33px;
+	cursor: pointer;
+	background-image: url("../img/paper.svg");
+	-webkit-transition-duration: 0.5s;
+  	transition-duration: 0.5s;
+  	-webkit-transition-property: transform;
+  	transition-property: transform;
+  	-webkit-transform: translateZ(0);
+  	transform: translateZ(0);
+  	box-shadow: 0 0 1px rgba(0, 0, 0, 0);
+}
+#paperButton:hover, #paperButton:focus, #paperButton:active{
+	background-color: #98dcfc;
+	  -webkit-transform: translateY(-12px);
+  	transform: translateY(-12px);
+  	-webkit-animation-name: hover;
+  	animation-name: hover;
+  	-webkit-animation-duration: 1.5s;
+  	animation-duration: 1.5s;
+  	-webkit-animation-delay: 0.3s;
+  	animation-delay: 0.3s;
+  	-webkit-animation-timing-function: linear;
+  	animation-timing-function: linear;
+  	-webkit-animation-iteration-count: infinite;
+  	animation-iteration-count: infinite;
+  	-webkit-animation-direction: alternate;
+  	animation-direction: alternate;
+}
+#scissorsButton{
+	width: 200px;
+	height: 200px;
+	border-radius: 50%;
+	background-color: #ffcaca;
+	display: inline-block;
+	position: relative;
+	float: left;
+	margin-left: 33px;
+	cursor: pointer;
+	background-image: url("../img/scissors.svg");
+	-webkit-transition-duration: 0.5s;
+  	transition-duration: 0.5s;
+  	-webkit-transition-property: transform;
+  	transition-property: transform;
+  	-webkit-transform: translateZ(0);
+  	transform: translateZ(0);
+  	box-shadow: 0 0 1px rgba(0, 0, 0, 0);
+}
+#scissorsButton:hover, #scissorsButton:focus, #scissorsButton:active{
+	background-color: #ff8e8e;
+	  -webkit-transform: translateY(-12px);
+  	transform: translateY(-12px);
+  	-webkit-animation-name: hover;
+  	animation-name: hover;
+  	-webkit-animation-duration: 1.5s;
+  	animation-duration: 1.5s;
+  	-webkit-animation-delay: 0.3s;
+  	animation-delay: 0.3s;
+  	-webkit-animation-timing-function: linear;
+  	animation-timing-function: linear;
+  	-webkit-animation-iteration-count: infinite;
+  	animation-iteration-count: infinite;
+  	-webkit-animation-direction: alternate;
+  	animation-direction: alternate;
+}
+hr{
+	width: 600px
+}
+.resultSection{
+	height: 300px;
+	margin-top:50px;
+}
