@@ -11,20 +11,36 @@
 		<div class="mainContainer">
 			<section  class="userSection">
 				<h1> Do you choose Rock, Paper or Scissors?</h1>
-				<div class="buttonChoices">
-					<div id="rockButton">
+				<div class = "buttonChoices">
+					<div id="rockButton" onclick = "choose(0)">
 					</div>
-					<div id="paperButton">
+					<div id="paperButton" onclick = "choose(1)">
 					</div>	
-					<div id="scissorsButton">
+					<div id="scissorsButton" onclick = "choose(2)">
 					</div>		
 				</div>
 			</section>
 
-		<hr class="hr" size=1> 
+			<div class="scores">
+				<div id="user">
+					<h2> USER </h2>
+					<span id="userScore"> 0</span>
+				</div>
+				<div id="computer">
+					<h2> COMPUTER </h2>
+					<span id="computerScore"> 0</span>
+
+				</div>
+			</div>
+
+			<section  class="computerOption">
+				<h1>  I chose</h1>
+				<div id="compChoice"> </div>
+			</section>
 
 			<section  class="resultSection">
-				<h1> Who is winning?</h1>
+				<h1> So, Who won?</h1>
+				<div id="whoWon"> </div>
 			</section>
 
 
