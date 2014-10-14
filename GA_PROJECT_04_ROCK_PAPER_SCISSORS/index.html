@@ -8,44 +8,36 @@
 	<link href='http://fonts.googleapis.com/css?family=Changa+One' rel='stylesheet' type='text/css'>
 </head>
 <body>
-		<div class="mainContainer">
-			<section  class="userSection">
-				<h1> Do you choose Rock, Paper or Scissors?</h1>
-				<div class = "buttonChoices">
-					<div id="rockButton" onclick = "choose(0)">
-					</div>
-					<div id="paperButton" onclick = "choose(1)">
-					</div>	
-					<div id="scissorsButton" onclick = "choose(2)">
-					</div>		
-				</div>
-			</section>
-
-			<div class="scores">
-				<div id="user">
-					<h2> USER </h2>
-					<span id="userScore"> 0</span>
-				</div>
-				<div id="computer">
-					<h2> COMPUTER </h2>
-					<span id="computerScore"> 0</span>
-
-				</div>
+	<div class="mainContainer">
+		<section  class="userSection">
+			<h1> Do you choose Rock, Paper or Scissors?</h1>
+			<div class = "buttonChoices">
+				<div id="rockButton" onclick = "choose(0)"></div>
+				<div id="paperButton" onclick = "choose(1)"></div>	
+				<div id="scissorsButton" onclick = "choose(2)"></div>		
 			</div>
+		</section>
 
-			<section  class="computerOption">
-				<h1>  I chose</h1>
-				<div id="compChoice"> </div>
-			</section>
-
-			<section  class="resultSection">
-				<h1> So, Who won?</h1>
-				<div id="whoWon"> </div>
-			</section>
-
-
+		<div class="scores">
+			<div id="user">
+				<h2> USER </h2>
+				<span id="userScore"> 0</span>
+			</div>
+			<div id="computer">
+				<h2> COMPUTER </h2>
+				<span id="computerScore"> 0</span>
+			</div>
 		</div>
 
+		<section  class="computerOption">
+			<h1>  I chose</h1>
+			<div id="compChoice"> </div>
+		</section>
 
+		<section  class="resultSection">
+			<h1> So, Who won?</h1>
+			<div id="whoWon"> </div>
+		</section>
+	</div>
 </body>
 </html>
