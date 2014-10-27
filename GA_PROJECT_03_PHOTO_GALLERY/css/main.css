@@ -8,6 +8,7 @@ body {
 	max-height: 650px;
 	background-color: #add8d6;
 	margin: 0px;
+	margin-left: 0px;
 	-webkit-box-sizing:border-box;
     -moz-box-sizing:border-box;
     box-sizing:border-box;
