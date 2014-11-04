@@ -19,8 +19,7 @@ function selecEditorial() {
 	var editorialWorks = $(".editorial");
 	$(editorialWorks).remove();
 	$(".worksList").prepend(editorialWorks);
-	$(".worksList > :not(.editorial").fadeTo(100, 0.25);
-    
+	$(".worksList > :not(.editorial").fadeTo(100, 0.25);   
 }
 
 function selecBranding() {

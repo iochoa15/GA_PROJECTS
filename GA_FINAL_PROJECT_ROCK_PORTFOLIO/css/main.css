@@ -12,7 +12,6 @@ body {
   box-sizing:border-box;
   line-height: 1.5em;
 }
-
 h2{
   font-size: 2.5em;
   font-style: bold;
@@ -58,7 +57,6 @@ h6{
   display: none;
 }
 /*//////THIS IS PARALLAX////*/
-
 .parallax__layer--base {
   z-index: -1;
   position: fixed;
@@ -70,7 +68,6 @@ h6{
 .work__parallax__layer--back{
   padding-top: 65%;
 }
-
 /*//////THIS IS PARALLAX////*/
 
 .link1{ 
@@ -90,7 +87,6 @@ h6{
   padding-bottom: 1.5%;
   box-shadow : 0 0 .5em #888888;
 }
-
 .menu li{
   font-size: .75em;
   float: right;
@@ -104,7 +100,6 @@ h6{
 .menu li:hover{
   color:#c1c1c1;
 }
-
 .mainScreen{
   width: 50%;
   max-height: 500px;
@@ -128,10 +123,10 @@ h6{
   box-shadow : 0 0 .5em #888888;
 }
 .line{
-    background-image: url("../img/line_work.svg");
-    background-repeat: no-repeat;
-    background-position:center;
-    background-size:contain;
+  background-image: url("../img/line_work.svg");
+  background-repeat: no-repeat;
+  background-position:center;
+  background-size:contain;
 }
 .worksMenu{
   margin-top: 5%;
@@ -155,7 +150,6 @@ h6{
   width: 10%;
   margin: auto;
 }
-
 .image{
   margin: 1.5% 1.5%;
   width: 21.875%;
@@ -184,7 +178,7 @@ h6{
   margin: auto;
   width: 100%;
   height: 100%;
-  margin-top: -2%;
+  margin-top: -1%;
   visibility: hidden;
   opacity:0;
   cursor: pointer;
@@ -202,71 +196,63 @@ h6{
   padding-top: 20%;
 }
 #hoverUniversal{
-    background-image: url("../img/tumbnails/hover/hover_base.png"), url("../img/tumbnails/hover/universal_music_hover.png");
-    background-repeat: no-repeat;
-    background-position:center;
-    background-size: 100%;
+  background-image: url("../img/tumbnails/hover/hover_base.png"), url("../img/tumbnails/hover/universal_music_hover.png");
+  background-repeat: no-repeat;
+  background-position:center;
+  background-size: 100%;
 }
 #hoverVxrsi{
-    background-image: url("../img/tumbnails/hover/hover_base.png"), url("../img/tumbnails/hover/vxrsi_hover.png");
-    background-repeat: no-repeat;
-    background-position:center;
-    background-size: 100%;
+  background-image: url("../img/tumbnails/hover/hover_base.png"), url("../img/tumbnails/hover/vxrsi_hover.png");
+  background-repeat: no-repeat;
+  background-position:center;
+  background-size: 100%;
 }
 #hoverHaute{
-    background-image: url("../img/tumbnails/hover/hover_base.png"), url("../img/tumbnails/hover/haute_living_hover.png");
-    background-repeat: no-repeat;
-    background-position:center;
-/*    background-size:contain;*/
+  background-image: url("../img/tumbnails/hover/hover_base.png"), url("../img/tumbnails/hover/haute_living_hover.png");
+  background-repeat: no-repeat;
+  background-position:center;
   background-size: 100%;
 }
 #hoverSteve{
-    background-image: url("../img/tumbnails/hover/hover_base.png"), url("../img/tumbnails/hover/seteve_madden_hover.png");
-    background-repeat: no-repeat;
-    background-position:center;
-/*    background-size:contain;*/
+  background-image: url("../img/tumbnails/hover/hover_base.png"), url("../img/tumbnails/hover/seteve_madden_hover.png");
+  background-repeat: no-repeat;
+  background-position:center;
   background-size: 100%;
 }
 #hoverSubaru{
-    background-image: url("../img/tumbnails/hover/hover_base.png"), url("../img/tumbnails/hover/subaru_hover.png");
-    background-repeat: no-repeat;
-    background-position:center;
-/*    background-size:contain;*/
+  background-image: url("../img/tumbnails/hover/hover_base.png"), url("../img/tumbnails/hover/subaru_hover.png");
+  background-repeat: no-repeat;
+  background-position:center;
   background-size: 100%;
 }
 #hoverTigres{
-    background-image: url("../img/tumbnails/hover/hover_base.png"), url("../img/tumbnails/hover/tigres_fc_hover.png");
-    background-repeat: no-repeat;
-    background-position:center;
-/*    background-size:contain;*/
+  background-image: url("../img/tumbnails/hover/hover_base.png"), url("../img/tumbnails/hover/tigres_fc_hover.png");
+  background-repeat: no-repeat;
+  background-position:center;
   background-size: 100%;
 }
 #hoverBigdrop{
-    background-image: url("../img/tumbnails/hover/hover_base.png"), url("../img/tumbnails/hover/bigdrop_hover.png");
-    background-repeat: no-repeat;
-    background-position:center;
-/*    background-size:contain;*/
+  background-image: url("../img/tumbnails/hover/hover_base.png"), url("../img/tumbnails/hover/bigdrop_hover.png");
+  background-repeat: no-repeat;
+  background-position:center;
   background-size: 100%;
 }
 #hoverTeather{
-    background-image: url("../img/tumbnails/hover/hover_base.png"), url("../img/tumbnails/hover/teather_posters_hover.png");
-    background-repeat: no-repeat;
-    background-position:center;
-/*    background-size:contain;*/
+  background-image: url("../img/tumbnails/hover/hover_base.png"), url("../img/tumbnails/hover/teather_posters_hover.png");
+  background-repeat: no-repeat;
+  background-position:center;
   background-size: 100%;
 }
 #hoverUniversal{
-    background-image: url("../img/tumbnails/hover/hover_base.png"), url("../img/tumbnails/hover/universal_music_hover.png");
-    background-repeat: no-repeat;
-    background-position:center;
-/*    background-size:contain;*/
+  background-image: url("../img/tumbnails/hover/hover_base.png"), url("../img/tumbnails/hover/universal_music_hover.png");
+  background-repeat: no-repeat;
+  background-position:center;
   background-size: 100%;
 }
 #hoverBranding{
-    background-image: url("../img/tumbnails/hover/hover_base.png"), url("../img/tumbnails/hover/branding_hover.png");
-    background-repeat: no-repeat;
-    background-position:center;
-/*    background-size:contain;*/
+  background-image: url("../img/tumbnails/hover/hover_base.png"), url("../img/tumbnails/hover/branding_hover.png");
+  background-repeat: no-repeat;
+  background-position:center;
   background-size: 100%;
 }
 .aboutContainer{
@@ -278,10 +264,10 @@ h6{
   padding-top: 5%;
 }
 .aboutmeLine{
-    background-image: url("../img/line_about.svg");
-    background-repeat: no-repeat;
-    background-position:center;
-    background-size:contain;
+  background-image: url("../img/line_about.svg");
+  background-repeat: no-repeat;
+  background-position:center;
+  background-size:contain;
 }
 #myPic{
   margin-left: 2%; 
@@ -291,19 +277,18 @@ h6{
   position: relative;
   float: left;
   overflow: hidden;
-/*  padding: -5%;*/
 }
 #myPic img{
   width: 70%;
 }
 #myInfo{
- margin-left: -15%;
- margin-right: 10%;
- margin-top: 5%;
- width: 45.833333333%;
- position: relative;
- float: right;
- margin-bottom: 8%;
+  margin-left: -15%;
+  margin-right: 10%;
+  margin-top: 5%;
+  width: 45.833333333%;
+  position: relative;
+  float: right;
+  margin-bottom: 8%;
 }
 #myInfo p{
   text-align: left;
@@ -315,10 +300,10 @@ h6{
   font-size: .8em;
 }
 .clientsLine{
-    background-image: url("../img/line_clients.svg");
-    background-repeat: no-repeat;
-    background-position:center;
-    background-size:contain;
+  background-image: url("../img/line_clients.svg");
+  background-repeat: no-repeat;
+  background-position:center;
+  background-size:contain;
 }
 #clientIcons img{
   display:inline-block;
@@ -326,7 +311,6 @@ h6{
   text-align: center;
   padding: 2%;
 }
-
 .footer{
   color: white;
   width: 100%;
@@ -335,6 +319,7 @@ h6{
   display: inline-block;
   padding-top: 5%;
   padding-bottom: 5%;
+  margin-top: -2%;
 }
 #logo{
   width: 45.833333%;
@@ -345,11 +330,11 @@ h6{
   text-align: left;
 }
 #logo img{
-  width: 40%;
+  min-width: 40%;
   margin-bottom: 5%;
 }
 #logo h6{
-    line-height: .7em !important;
+  line-height: .7em !important;
 }
 #contact{
   width: 21.875%;
@@ -359,10 +344,10 @@ h6{
   margin-left: -10%;
 }
 #contact h5{
-margin-bottom: 5% !important;
+  margin-bottom: 5% !important;
 }
 #contact h6{
-line-height: .7em !important;
+  line-height: 1.5em !important;
 }    
 #socials{
   width: 21.875%;
@@ -376,7 +361,7 @@ line-height: .7em !important;
   margin-bottom: 5% !important;
 }
 #socials h6{
-line-height: .7em !important;
+  line-height: 1.5em !important;
 }
 #socials img{
   width:10%; 
@@ -384,7 +369,6 @@ line-height: .7em !important;
   margin-top: 4%;
   cursor: pointer;
 }  
-
 /*//This is works pages section//*/
 #logoHeader{
   position: relative;
@@ -393,28 +377,22 @@ line-height: .7em !important;
   margin-left: 5%;
   padding-top: 1.5%;
   cursor: pointer;
-
 }
 #logoHeader img{
   width: 180%;
   cursor: pointer;
 }
-
 .imagesSection{
   width: 100%;
   display: inline-block;
   background-color: white;
   padding-bottom: 10%;
-/*  padding-top: 2%;*/
-/*  padding-top: 5%;*/
 }
-
 #largeImage img{
   width: 100%;
   display: inline;
   position: relative;
   margin: 0, 3%; 
-
 }
 #smallImageLeft {
   width: 48.95833333%;
@@ -450,20 +428,22 @@ line-height: .7em !important;
   padding-bottom: 5%;
   position: relative;
   float: left;
-  overflow: hidden;
-/*  padding: -5%;*/
 }
 #projectName h2{
   font-size: 3em !important;
   text-align: left;
   margin: 4%;
   padding-bottom: 2%;
+  line-height: 1em;
+  padding-right: 8%;
 }
 #projectName h5{
   font-size: 1.5em !important;
   text-align: left;
   margin-left: 4%;
-  margin-right: 4%;
+  margin-right: 8%;
+  line-height: 1.5em !important;
+  padding-right: 8%;
 }
 #projectName hr{
  width: 80%;
@@ -486,14 +466,12 @@ line-height: .7em !important;
 
   .headerMenu{
     width: 100%;
-
   }
   .parallax__layer--back {
     padding-top: 80%;
   }
   .line{
     background-image: url("../img/line_work_730px.svg");
-
   }
   .image{
     margin: 1.5% 1.5%;
@@ -508,6 +486,202 @@ line-height: .7em !important;
   } 
   .work__parallax__layer--back{
     padding-top: 90%;
+  }
+}
+@media (max-width: 589px) {
+  .parallax__layer--back {
+    padding-top: 100%;
+  }
+  .image{
+    margin: 1.5% 1.5%;
+    width: 45.83333333333%;
+  }
+  #clientIcons {
+    width: 60%;
+    margin: auto;
+  }
+  .work__parallax__layer--back{
+    padding-top: 130%;
+  }
+  #projectName{
+    margin-left: 2%; 
+    margin-top: 5%;
+    width: 100%;
+    margin-bottom: 0 !important; 
+
+  }
+  #projectInfo{
+    margin-left: 6% !important;
+    margin-top: 0 !important; 
+    width: 100%;
+    position: relative;
+    float: left !important;
+  }
+  #projectInfo p{
+    padding-right: 10% !important;
+  }
+  #smallImageLeft {
+    width: 100%;
+    float: left !important;
+  }
+  #smallImageRight {
+  width: 100%;
+  float: left !important; 
+  }
+  #logo{
+    width: 100%;
+    float: left !important; 
+    margin-left: 5% !important; 
+  }
+  #logo img{
+    width: 50%;
+    margin-bottom:2%;
+  }
+  #logo h6{
+    line-height: .7em !important;
+    margin-bottom: 0 !important;
+  }
+  #contact{
+    width: 100%;
+    float: left !important;
+    margin-left: 5% !important;  
+    margin-top:  5% !important;
+    line-height: .2em !important;
+    margin-bottom: 0 !important;
+  }
+  #contact h5{
+    margin-bottom: 0 !important;
+  } 
+  #socials{
+    width: 100%;
+    float: left !important;
+    margin-left: 5% !important;
+    margin-top:  5% !important;
+  }
+  #socials h5{
+    margin-bottom: 0 !important;
+  }
+  #socials img{
+    width:5%; 
+    margin-right:  2%;
+    margin-top: 2%;
+  }  
+  } 
+
+@media (max-width: 400px) {
+  body {
+    font-size: 1.1em;
+  }
+  .parallax__layer--back {
+    padding-top: 120%;
+  }
+  .work__parallax__layer--back{
+    padding-top: 190% !important;
+    }
+  .image{
+    margin: 1.5% 1.5%;
+    width: 100%;
+    position: relative;
+  }
+  .menu {
+    margin: 0;
+    padding-top: 4%;
+    padding-left: 0;
+    position: relative;
+  }
+  .menu li{
+    font-size: 1.5em;
+    margin-right: 8%;
+    padding-bottom: 4%;
+    padding-top: 3%;
+    float: none;
+  }
+  .mainScreen{
+    width: 80%;
+    margin-left: 10% !important;
+    margin-right: 10% !important;
+    padding-top: 25%;
+  }
+  .line{
+    background-image: none;
+  }
+  .worksMenu{
+    margin-top: 3%;
+    margin-bottom: 3%;
+    padding: 0;
+  }
+  .worksMenu li{
+    font-size: 1.3em;
+    cursor: pointer;
+    margin: 1.5% !important;
+    display: block;
+  }
+  .aboutContainer{
+    width: 100%;
+    background-color:#e7e7e7; 
+    position: relative;
+    margin-top: -1%;
+    padding-bottom: 5%;
+    padding-top: 5%;
+  }
+  .aboutmeLine{
+      background-image: none;
+  }
+  #myPic{
+    width: 100%;
+  }
+  #myInfo{
+    width: 100%;
+    margin: 0 7% !important;
+    margin-top: 5%;
+    float: left;
+    margin-bottom: 5% !important;
+  }
+  #myInfo p{
+    padding-right: 10%;
+  }
+  .clientsLine{
+      background-image: none;
+  }
+  #clients p{
+    font-size: 1em;
+  }
+  #clientIcons img{
+    margin: 2% 3%; 
+  }
+  #contact{
+    width: 100%;
+    padding-right: 10%;
+  }
+  #contact h6{
+      padding-right: 12%;
+  } 
+  #socials h6{
+    padding-right: 12% !important;
+  }
+  #logoHeader{
+   display: none;
+  }
+  .project{
+    padding-top: 15%;
+  }
+  #projectName{
+    width: 100%;
+  }
+  #projectName h2{
+    margin-bottom: 0;
+  }
+  #projectName h5{
+    font-size: 1em !important;
+  }
+  #projectInfo{
+   width: 100%;
+   position: relative;
+   float: right;
+  }
+  #projectInfo p{
+    text-align: left;
+    margin: 1%;
   }
 
 }
